@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/offrampclone/static/css/main.58428d9d.css",
+    "main.js": "/offrampclone/static/js/main.25cfd9d1.js",
+    "static/js/787.1c198ac4.chunk.js": "/offrampclone/static/js/787.1c198ac4.chunk.js",
+    "static/media/vecteezy_a-logo-illustration-depicting-web3-metaverse_13863816.jpg": "/offrampclone/static/media/vecteezy_a-logo-illustration-depicting-web3-metaverse_13863816.4faf434166fa1d13ecc5.jpg",
+    "static/media/Uncut-Sans-VF.ttf": "/offrampclone/static/media/Uncut-Sans-VF.e3469ed5961c5f35c6c8.ttf",
+    "index.html": "/offrampclone/index.html",
+    "main.58428d9d.css.map": "/offrampclone/static/css/main.58428d9d.css.map",
+    "main.25cfd9d1.js.map": "/offrampclone/static/js/main.25cfd9d1.js.map",
+    "787.1c198ac4.chunk.js.map": "/offrampclone/static/js/787.1c198ac4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58428d9d.css",
+    "static/js/main.25cfd9d1.js"
+  ]
+}
