@@ -1,0 +1,38 @@
+.features{
+    display: flex;
+    border: 0;
+    border-radius: 2vw;
+    background-color: #15141b;
+}
+
+.features *{
+    background: none;
+}
+
+.features__text__container{
+    width: 50%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 3.5vw;
+    font-family: Uncut Sans;
+    font-size: 1.1vw;
+    font-weight: 200;
+    justify-content: flex-start;
+}
+
+.features__text{
+    color: white;
+}
+
+.features__image__container{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.features__image{
+    width: 100%;
+}

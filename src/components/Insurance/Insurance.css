@@ -1,0 +1,155 @@
+.insurance{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    align-items: center;
+    gap: 2.5vw;
+    justify-content: center;
+    color: white;
+    background-color: #b1a7eb;
+}
+
+.insurance__title{
+    background: none;
+}
+
+.insurance__title *{
+    background: none;
+}
+
+.insurance__content{
+    display: flex;
+    height: 30vw;
+    width: 80%;
+    padding: 1vw;
+    border-radius: 2vw;
+    justify-content: flex-end;
+    gap: 1vw;
+    background-image: url("https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/64917cd3843009bf006c7f73_Mask%20group.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #1e1d28;
+}
+
+.insurance__list{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 1vw;
+    border-radius: 2vw;
+    padding: 1.5vw;
+    background-color: #282735;
+    font-family: Uncut Sans;
+}
+
+.line{
+    border:1px solid #3b414b;
+}
+.insurance__list *{
+    background: none;
+}
+
+.insurance__list h3{
+    font-size: 1.1vw;
+}
+
+.insurance__list__content{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    list-style-type: none;
+}
+
+.insurance__list__content li {
+    display: flex;
+    font-size: 0.8vw;
+    font-weight: bold;
+    gap: 1vw;
+    align-items: center;
+}
+
+.line{
+    color: #444;
+}
+
+.list__style{
+    font-size: 2vw;
+    color: #b1a7eb;
+}
+
+.cc{
+    width: 25%;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.cc *{
+    background: none;
+}
+
+.cc__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+    color: black;
+    padding: 1.5vw;
+    font-weight: 100;
+    border-radius: 2vw;
+    font-family: Uncut Sans;
+    background-color: #e0ff05;;
+}
+
+.cc__content h4{
+    font-size: 1.2vw;
+}
+
+.cc__content h1{
+    font-size: 2vw;
+    font-weight: 500;
+}
+.cc__learnmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    border-radius: 2vw;
+    border: 2px solid #444;
+    font-family: Uncut Sans;
+}
+
+.cc__bttn{
+    font-family: Uncut Sans;  
+    font-size: 0.93vw;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.icon{
+    color: #e0ff05;
+}
+
+.word{
+    overflow: hidden;
+    padding-bottom: 0.1em;
+    margin-bottom: -0.1em;
+    transform-origin: bottom;
+}
+
+.insurance__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: Uncut Sans;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.insurance__title__1, .insurance__title__2{
+    display: flex;
+    gap: 0.7vw;
+}

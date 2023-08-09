@@ -1,0 +1,35 @@
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.faq__content{
+    display: flex;
+    color: white;
+    gap: 2vw;
+    border-radius: 2vw;
+    background-color: #15141b;
+    padding: 3vw;
+    justify-content: space-between;
+    font-family: Uncut Sans;
+    width:70%;
+}
+
+.faq__content *{
+    background: none;
+}
+
+.faq__question{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.6vw;
+}
+
+.faq__title{
+    font-size: 2.6vw;
+    font-weight: 600;
+}

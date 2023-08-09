@@ -1,0 +1,50 @@
+.footer{
+    display: flex;
+    color: white;
+    padding: 2vw;
+    gap: 1vw;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footer *{
+    background: none;
+}
+
+.footer__header{
+    display: flex;
+    font-family: Uncut Sans;
+    padding: 0vw 2vw;
+    font-size: 1vw;
+    justify-content: space-between;
+}
+
+.footer__list{
+    display: flex;
+    gap: 2vw;
+    list-style-type: none;
+}
+.footer__logo__container{
+    display: flex;
+    font-family: Uncut Sans;
+    font-weight: bold;
+    align-items: center;
+    border:none;
+}
+
+.twitter, .discord{
+   font-size: 1.5vw;
+}
+
+.footer__logo{
+    width: 7vw;
+}
+
+.social{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.footer__logo__name{
+    font-size: 1.2vw;
+}

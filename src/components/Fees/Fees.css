@@ -1,0 +1,46 @@
+.fees{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 12vw;
+    gap: 2vw;
+}
+.fees__panel__1{
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    border-radius: 2vw;
+    background-color: #e0ff05;
+    background-image: url(https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/647833fc99eca638acfa94dd_1.png);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 1.5vw;
+    gap: 8vw;
+    height: 21.8vw;
+    font-family: Uncut Sans;
+    font-size: 1.3vw;
+}
+
+.fees__panel__1 *{
+    background: none;
+}
+
+.fees__panel__2{
+    border-radius: 2vw;
+    background-color: #15141b;
+    color: white;
+    background-image: url("https://uploads-ssl.webflow.com/638dce18f5ce022bbefdca6c/6478360e458c23ab13f3b348_Mask%20group.png");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 50%;
+    height: 21.8vw;
+    padding: 1.5vw;
+    font-family: Uncut Sans;
+    
+    font-size: 1.3vw;
+}
+
+.fees__panel__2 *{
+    background: none;
+}

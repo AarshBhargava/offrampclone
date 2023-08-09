@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import FeaturePanel from './components/Features/FeaturePanel';
+import Fees from './components/Fees/Fees';
+import Heropage from './components/Heropage/Heropage';
+import Insurance from './components/Insurance/Insurance';
+import Navbar from './components/Navbar/Navbar';
+import Partners from './components/Partners/Partners';
+import "./App.css";
+import Merchant from './components/merchant/Merchant';
+import Faq from './components/Faq/Faq';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Heropage /> 
+      <FeaturePanel /> 
+      <Fees />
+      <Partners />
+      <Insurance />
+      <Merchant />
+      <Faq />
+      <Footer  />
     </div>
   );
 }

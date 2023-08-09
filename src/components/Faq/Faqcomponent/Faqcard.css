@@ -1,0 +1,35 @@
+.faqcard{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    border: 1px solid #444;
+    border-radius: 1.4vw;
+    color: white;
+    gap: 0.5vw;
+    padding: 1vw 1.4vw;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+
+.plus__icon{
+    color: #b1a7eb;
+    font-size: 1.5vw;
+}
+
+.close{
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+}
+
+.open{
+    opacity: 100;
+    color: #a5a5a5;
+}

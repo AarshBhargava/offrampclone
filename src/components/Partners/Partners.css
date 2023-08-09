@@ -1,0 +1,22 @@
+.partners{
+    padding: 3vw;
+}
+
+.partners *{
+    background: none;
+}
+
+.partners__content{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: Uncut Sans;
+    border-radius: 2vw;
+    padding: 3vw;
+    background-color: #15141b;
+    justify-content: space-around;
+}
+
+.chainlink , .meson ,.polybase, .nexusmutual{
+    width: 8vw;
+}
